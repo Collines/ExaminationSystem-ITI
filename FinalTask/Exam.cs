@@ -16,43 +16,6 @@
             Type = ExamType.Final;
         }
 
-        #region Dep
-        //public int GetSubject()
-        //{
-        //    int SubjectNum;
-        //    do
-        //    {
-        //        Console.WriteLine("Please Choose Subject:1-Math,2-English");
-        //    }
-        //    while (!int.TryParse(Console.ReadLine(), out SubjectNum) || SubjectNum > 2 || SubjectNum < 1);
-        //    return SubjectNum;
-
-        //}
-        //public int GetNumOfQuestions()
-        //{
-        //    int NumOfQuestions;
-        //    do
-        //    {
-        //        Console.WriteLine("How many questions do you want ? (3~5)");
-
-
-        //    } while (!int.TryParse(Console.ReadLine(), out NumOfQuestions) || NumOfQuestions > 5 || NumOfQuestions < 3);
-        //    return NumOfQuestions;
-        //}
-        //public int GetQuestionType()
-        //{
-        //    int QuestionType;
-        //    do
-        //    {
-        //        Console.WriteLine("What is Your favourite question type ? (1- T or F , 2- Choose One Answer 3-Choose Multiple Answer.)");
-
-
-        //    } while (!int.TryParse(Console.ReadLine(), out QuestionType) || QuestionType > 3 || QuestionType < 1);
-        //    return QuestionType;
-
-        //} 
-        #endregion
-
         public static implicit operator bool(Exam x)
         {
             if (x.Subj)
