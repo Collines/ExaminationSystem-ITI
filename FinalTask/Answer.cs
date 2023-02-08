@@ -2,15 +2,10 @@
 {
     internal class Answer
     {
-        //string[] Answers;
-        Dictionary<int, string> Answers;
+        string[] Answers;
         public Answer(string[] answers)
         {
-            for(int i = 0;i< answers.Length;i++)
-            {
-                Answers.Add(i + 1, Answers[i]);
-            }
-            //Answers = answers;
+            Answers = answers;
         }
        
         public static implicit operator bool(Answer a)
