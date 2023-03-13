@@ -48,7 +48,7 @@ namespace FinalTask
 
         public static implicit operator bool(AnswerList al)
         {
-            return al.Count > 0 && al != null;
+            return  al != null && al.Count > 0;
         }
 
         public object Clone()
