@@ -2,55 +2,35 @@
 {
     internal class Answer
     {
-        string[] Answers;
-        public Answer(string[] answers)
+        public string answer { get; private set; }
+        public Answer(string answer)
         {
-            Answers = answers;
+            this.answer = answer;
         }
-       
+
+        public override string ToString()
+        {
+            return answer;
+        }
+
         public static implicit operator bool(Answer a)
         {
-            if (a.Answers.Length > 0)
+            if (a != null || a?.answer.Length > 0)
                 return true;
             return false;
         }
-        public string[] Get()
+
+        public override bool Equals(object? obj)
         {
-            return Answers;
-        }
-        public void ShowAnswers()
-        {
-            int i = 1;
-            foreach(var answer in Answers)
-            {
-                Console.WriteLine($"({i}) {answer}");
-                i++;
-            }
-            Console.Write("\n");
+            Answer? a = obj as Answer;
+            if (a != null && this != null)
+                return a.answer == answer;
+            return false;
         }
 
-
-        ///<summary>
-        ///  user enter values like this 1,2,3 we don't know what 1,2 and 3 stands for
-        ///  so we split them and get their values from QuestionAnswers array
-        ///  and return the answers array to a new Answer so we can use it in Correct function 
-        ///  by comparing entered answers with model answers
-        ///</summary>
-        ///<param name="str">str is the user entered answers indexes array</param>
-        ///
-        public Answer Grab(string[] str) // obj.grab()
+        public override int GetHashCode()
         {
-            if(str.Length > 0)
-            {
-                string[] grabbedAnswers = new string[str.Length];
-                for (int i=0;i<str.Length;i++)
-                {
-                    int x = int.Parse(str[i]);
-                    grabbedAnswers[i] = Answers[x - 1];
-                }
-                return new Answer(grabbedAnswers);
-            }
-            return null;
+            return HashCode.Combine(answer);
         }
     }
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MiDo\\Desktop\\FinalTask\\FinalTask\\FinalTask.csproj",
+      "projectUniqueName": "C:\\Users\\MiDo\\Desktop\\Examination System Update\\ExaminationSystem-ITI\\FinalTask\\FinalTask.csproj",
       "projectName": "FinalTask",
-      "projectPath": "C:\\Users\\MiDo\\Desktop\\FinalTask\\FinalTask\\FinalTask.csproj",
+      "projectPath": "C:\\Users\\MiDo\\Desktop\\Examination System Update\\ExaminationSystem-ITI\\FinalTask\\FinalTask.csproj",
       "packagesPath": "C:\\Users\\MiDo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MiDo\\Desktop\\FinalTask\\FinalTask\\obj\\",
+      "outputPath": "C:\\Users\\MiDo\\Desktop\\Examination System Update\\ExaminationSystem-ITI\\FinalTask\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

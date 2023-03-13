@@ -1,20 +1,20 @@
 ﻿namespace FinalTask
 {
-    enum Type:byte
+    public enum QuestionType:byte
     {
         TrueFalse,
         ChooseOne,
         Multiple
     }
-    internal abstract class Question
+    internal abstract class Question:IComparable<Question>
     {
         protected string Header;
         protected float Marks;
-        protected Answer QuestionAnswers;
-        protected Answer ModelAnswers;
-        protected Type QType;
+        protected AnswerList QuestionAnswers;
+        protected AnswerList ModelAnswers;
+        protected QuestionType QType;
 
-        public Question(string header, float marks, Answer questionAnswers, Answer modelAnswers, Type type)
+        public Question(string header, float marks, AnswerList questionAnswers, AnswerList modelAnswers, QuestionType type)
         {
             Header = header;
             Marks = marks;
@@ -23,12 +23,17 @@
             QType = type;
         }
 
-        public Answer GetQuestionAnswers()
+        public string GetHeader()
+        {
+            return Header;
+        }
+
+        public AnswerList GetQuestionAnswers()
         {
             return QuestionAnswers;
         }
 
-        public Answer GetModelAnswers()
+        public AnswerList GetModelAnswers()
         {
             return ModelAnswers;
         }
@@ -38,7 +43,7 @@
             return Marks;
         }
 
-        public Type GetType()
+        public QuestionType GetQType()
         {
             return QType;
         }
@@ -47,35 +52,22 @@
         public void ShowQuestion(string num = "")
         {
             num = num.Length >= 1 ? num + ") " : num;
-            if(QType == Type.Multiple)
+            if(QType == QuestionType.Multiple)
                 Console.Write($"{num}Choose all correct answers: {Header}       ({Marks} Marks)\n");
             else
                 Console.Write($"{num}{Header}       ({Marks} Marks)\n");
             QuestionAnswers.ShowAnswers();
         }
-
-
-        /// <summary>
-        /// Print Correct Answers to a specific question number taking in consideration if the question has multiple correct answers
-        /// </summary>
-        /// <param name="QNum">Question Number</param>
-        public void ShowCorrectAnswers(string QNum)
+        public int CompareTo(Question? other)
         {
-            bool first = true;
-            foreach (var answer in ModelAnswers.Get())
-            {
-                if (QType==Type.Multiple && first)
-                {
-                    Console.Write($"\n{QNum}) {answer}");
-                    first = false;
-                }
-                else if (QType == Type.Multiple)
-                    Console.Write($", {answer}");
-
-                else
-                    Console.Write($"\n{QNum}) {answer}");
-            }
+            if (other == null || this == null)
+                return -1;
+            else
+            return (int)Marks - (int)other.GetMarks();
         }
-        public abstract bool Correct(Answer EnteredAnswer);
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Header);
+        }
     }
 }

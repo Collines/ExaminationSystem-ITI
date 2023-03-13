@@ -3,10 +3,9 @@
     internal class Subject
     {
         public string Name { get; private set; }
-
         // Aggregation relationship
-        public List<Question> Questions { get; private set; }
-        public Subject(string subjname, List<Question> Q)
+        public QuestionList Questions { get; private set; }
+        public Subject(string subjname, QuestionList Q)
         {
             Name = subjname;
             Questions = Q;
