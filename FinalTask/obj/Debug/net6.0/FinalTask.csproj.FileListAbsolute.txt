@@ -28,3 +28,18 @@ C:\Users\MiDo\Desktop\Examination System Update\ExaminationSystem-ITI\FinalTask\
 C:\Users\MiDo\Desktop\Examination System Update\ExaminationSystem-ITI\FinalTask\obj\Debug\net6.0\FinalTask.pdb
 C:\Users\MiDo\Desktop\Examination System Update\ExaminationSystem-ITI\FinalTask\obj\Debug\net6.0\FinalTask.genruntimeconfig.cache
 C:\Users\MiDo\Desktop\Examination System Update\ExaminationSystem-ITI\FinalTask\obj\Debug\net6.0\ref\FinalTask.dll
+D:\ExamGit\FinalTask\bin\Debug\net6.0\FinalTask.exe
+D:\ExamGit\FinalTask\bin\Debug\net6.0\FinalTask.deps.json
+D:\ExamGit\FinalTask\bin\Debug\net6.0\FinalTask.runtimeconfig.json
+D:\ExamGit\FinalTask\bin\Debug\net6.0\FinalTask.dll
+D:\ExamGit\FinalTask\bin\Debug\net6.0\FinalTask.pdb
+D:\ExamGit\FinalTask\obj\Debug\net6.0\FinalTask.csproj.AssemblyReference.cache
+D:\ExamGit\FinalTask\obj\Debug\net6.0\FinalTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\ExamGit\FinalTask\obj\Debug\net6.0\FinalTask.AssemblyInfoInputs.cache
+D:\ExamGit\FinalTask\obj\Debug\net6.0\FinalTask.AssemblyInfo.cs
+D:\ExamGit\FinalTask\obj\Debug\net6.0\FinalTask.csproj.CoreCompileInputs.cache
+D:\ExamGit\FinalTask\obj\Debug\net6.0\FinalTask.dll
+D:\ExamGit\FinalTask\obj\Debug\net6.0\refint\FinalTask.dll
+D:\ExamGit\FinalTask\obj\Debug\net6.0\FinalTask.pdb
+D:\ExamGit\FinalTask\obj\Debug\net6.0\FinalTask.genruntimeconfig.cache
+D:\ExamGit\FinalTask\obj\Debug\net6.0\ref\FinalTask.dll

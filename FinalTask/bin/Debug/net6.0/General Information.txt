@@ -145,3 +145,24 @@ Bats are blind,2.5,TrueFalse, - True - False, - False
 Identify the capital city of Portugal,2.5,ChooseOne, - Rome - Lisbon - Paris - Madrid, - Lisbon
 Sea otters have a favorite rock they use to break open food,2.5,TrueFalse, - True - False, - True
 What is name of the young rabbit?,2.5,ChooseOne, - Buck - Doe - Bunny - Cottontail, - Bunny
+Sea otters have a favorite rock they use to break open food,2.5,TrueFalse, - True - False, - True
+The blue whale is the biggest animal to have ever lived,2.5,TrueFalse, - True - False, - True
+Pigs roll in the mud because they don’t like being clean,2.5,TrueFalse, - True - False, - False
+Bats are blind,2.5,TrueFalse, - True - False, - False
+Identify the capital city of Ecuador,2.5,ChooseOne, - Bogotá - Tegucigalpa - Quito - Asunción, - Quito
+Identify the capital city of Portugal,2.5,ChooseOne, - Rome - Lisbon - Paris - Madrid, - Lisbon
+Identify the capital city of Vietnam,2.5,ChooseOne, - Vientián - Phnom Penh - Bangkok - Hanói, - Hanói
+Identify the capital city of Egypt,2.5,ChooseOne, - Beni-suef - Alexandria - Cairo - Aswan, - Cairo
+What is name of the young rabbit?,2.5,ChooseOne, - Buck - Doe - Bunny - Cottontail, - Bunny
+I _____ alcohol, but today I _____ my birthday.,5,Multiple, - 'm not often drinking - 'm celebrating - celebrate - don't often drink, - don't often drink - 'm celebrating
+I don't really like _____ milk. I only like _____ milk that you buy.,5,Multiple, - the - the - –, - the - –
+Identify the capital city of Egypt,2.5,ChooseOne, - Beni-suef - Alexandria - Cairo - Aswan, - Cairo
+Bats are blind,2.5,TrueFalse, - True - False, - False
+I _____ alcohol, but today I _____ my birthday.,5,Multiple, - 'm not often drinking - 'm celebrating - celebrate - don't often drink, - don't often drink - 'm celebrating
+Pigs roll in the mud because they don’t like being clean,2.5,TrueFalse, - True - False, - False
+Sea otters have a favorite rock they use to break open food,2.5,TrueFalse, - True - False, - True
+Identify the capital city of Vietnam,2.5,ChooseOne, - Vientián - Phnom Penh - Bangkok - Hanói, - Hanói
+Identify the capital city of Ecuador,2.5,ChooseOne, - Bogotá - Tegucigalpa - Quito - Asunción, - Quito
+Identify the capital city of Portugal,2.5,ChooseOne, - Rome - Lisbon - Paris - Madrid, - Lisbon
+What is name of the young rabbit?,2.5,ChooseOne, - Buck - Doe - Bunny - Cottontail, - Bunny
+The blue whale is the biggest animal to have ever lived,2.5,TrueFalse, - True - False, - True
